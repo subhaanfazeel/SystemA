@@ -1,0 +1,38 @@
+{
+  "name": null,
+  "tasks": [],
+  "non_negotiables": [],
+  "punishments": [],
+  "diary": [],
+  "shop": {
+    "coins": 0,
+    "inventory": []
+  },
+  "stats": {
+    "tasks_completed": 0
+  },
+  "stat_progress": {
+    "discipline": {
+      "level": 1,
+      "xp": 0
+    },
+    "strength": {
+      "level": 1,
+      "xp": 0
+    },
+    "intelligence": {
+      "level": 1,
+      "xp": 0
+    },
+    "spirituality": {
+      "level": 1,
+      "xp": 0
+    }
+  },
+  "settings": {
+    "sounds": true
+  },
+  "streak": 1,
+  "best_streak": 1,
+  "last_login": "2025-09-13T18:58:35.366254"
+}
