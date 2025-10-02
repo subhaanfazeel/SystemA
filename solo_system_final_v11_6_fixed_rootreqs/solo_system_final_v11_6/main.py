@@ -43,8 +43,8 @@ DATA_FILE = os.path.join(DATA_DIR, "player_data.json")
 # Must be set as environment variables (Render Dashboard or local shell)
 # SUPABASE_URL = "https://<project>.supabase.co"
 # SUPABASE_KEY = "<service_role_or_rest_key>"
-SUPABASE_URL = os.getenv("https://wnxboxvempodutxrpwiu.supabase.co") or None
-SUPABASE_KEY = os.getenv("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndueGJveHZlbXBvZHV0eHJwd2l1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkyNTk5MjYsImV4cCI6MjA3NDgzNTkyNn0.Kk3NQPYNz0jRwI0CS6vWNdTmfRMHqH6ZA-zAs4zY_wA") or None
+SUPABASE_URL = os.getenv("SUPABASE_URL")
+SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 
 def supabase_headers() -> Dict[str, str]:
     if not SUPABASE_KEY:
